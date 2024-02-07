@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.185" height="36.616" viewBox="0 0 47.185 36.616">
+  <g id="Group_162882" data-name="Group 162882" transform="translate(-950.157 -877.893)">
+    <g id="Group_162848" data-name="Group 162848" transform="translate(950.157 877.893)">
+      <path id="ic_contact_mail_24px" d="M36.693,3H3.336A3.428,3.428,0,0,0,0,6.494V30.952a3.428,3.428,0,0,0,3.336,3.494H36.693a3.414,3.414,0,0,0,3.319-3.494l.017-24.458A3.428,3.428,0,0,0,36.693,3ZM13.343,8.241a5.12,5.12,0,0,1,5,5.241,5.12,5.12,0,0,1-5,5.241,5.12,5.12,0,0,1-5-5.241A5.12,5.12,0,0,1,13.343,8.241ZM23.35,29.205H3.336V27.458c0-3.494,6.671-5.416,10.007-5.416S23.35,23.964,23.35,27.458Z" transform="translate(0 -3)" fill="#19bbc8"/>
+      <line id="Line_260" data-name="Line 260" x2="12.865" transform="translate(24.246 11.728)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_263" data-name="Line 263" x2="14.845" transform="translate(22.267 7.97)" fill="none" stroke="#fff" stroke-width="2"/>
+      <line id="Line_261" data-name="Line 261" x2="12.865" transform="translate(24.246 14.546)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+    <path id="Icon_awesome-shield-alt" data-name="Icon awesome-shield-alt" d="M20.859,3.547,12.289.157a2.256,2.256,0,0,0-1.647,0l-8.57,3.39A2.034,2.034,0,0,0,.75,5.424c0,8.411,5.111,14.224,9.887,16.114a2.256,2.256,0,0,0,1.647,0c3.825-1.513,9.892-6.737,9.892-16.114A2.036,2.036,0,0,0,20.859,3.547Z" transform="translate(974.167 891.807)" fill="#19bbc8" stroke="#fff" stroke-width="2"/>
+    <path id="Path_83762" data-name="Path 83762" d="M-21450.73,6571.917l2.828,2.409,4.943-5.384" transform="translate(22432.867 -5670.354)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,455 @@
+@media(min-width: 1199px) {
+    .container {
+        width: 1088px;
+    }
+
+}
+
+@media(max-width: 1199px) {
+    .region_items input{
+        width: 180px;
+    }
+    .contact_li {
+        margin: 0;
+    }
+
+    .search_box {
+        padding: 15px 15px 20px 20px;
+    }
+
+    .search_input input,
+    .select_btn {
+        width: 200px;
+    }
+
+    /*mobile_menu*/
+    .burger_menu {
+        background: transparent;
+        cursor: pointer;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        -webkit-animation: burgerAnimation 3s linear infinite alternate;
+        animation: burgerAnimation 3s linear infinite alternate;
+        width: 30px;
+        height: 23px;
+        padding: 0px 5px;
+        border-radius: 2px;
+    }
+
+    .burger__ {
+        display: block;
+        width: 100%;
+        height: 20px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .burger__ i {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 3px;
+        color: #454545;
+        text-transform: uppercase;
+        text-indent: -55px;
+        background: #454545;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+
+    .burger__ i::before {
+        top: -7px;
+    }
+
+    .burger__ i::before,
+    .burger__ i::after {
+        content: '';
+        width: 100%;
+        height: 3px;
+        background: #454545;
+        position: absolute;
+        left: 0;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+
+    .burger__ i::after {
+        bottom: -7px;
+    }
+
+    .burger__.burg_act i {
+        background: transparent;
+    }
+
+    .burger__.burg_act i::before {
+        top: 0;
+        -webkit-transform: rotateZ(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotateZ(45deg);
+    }
+
+    .burger__.burg_act i::after {
+        bottom: 0;
+        -webkit-transform: rotateZ(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotateZ(-45deg);
+    }
+
+    .mobile_navigation {
+        position: fixed;
+        z-index: 999;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        top: 160px;
+        left: -2px;
+        margin: 0px !important;
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        border-top: 1px solid #2A99FB;
+    }
+
+    .nav_ul {
+        padding-top: 40px;
+    }
+
+    .nav_act {
+        -webkit-transform: translateX(0%) !important;
+        -ms-transform: translateX(0%) !important;
+        transform: translateX(0%) !important;
+        -webkit-transition-delay: 0.3s !important;
+        -o-transition-delay: 0.3s !important;
+        transition-delay: 0.3s !important;
+        left: 0px;
+    }
+
+    .mobile_menu_logo {
+        width: 130px;
+        height: 40px;
+    }
+
+    .overflow_hidden {
+        overflow: hidden !important;
+    }
+
+    .mobile_contact_block .contact_ {
+        font-size: 16px;
+        color: #1F273B !important;
+        font-family: 'BPG ExtraSquare Mtavruli';
+    }
+
+    .nav_li {
+        padding: 0 !important;
+        margin-bottom: 15px;
+    }
+
+    .dropdown_menu .dropdown-item {
+        padding: 0px 0px 10px 0px;
+    }
+
+    .dropdown_menu .dropdown-menu {
+        padding: 20px;
+    }
+
+    .dropdown_menu.show .dropdown-toggle {
+        padding: 10px !important;
+    }
+
+    .right_direction_section {
+        right: initial !important;
+        left: 0 !important;
+        margin-top: -8px !important;
+    }
+
+    .right_side_block {
+        padding: 0;
+    }
+
+    .news_info_txt {
+        width: 100px;
+    }
+
+    .nav_buttons {
+        width: 300px;
+        right: 100px;
+    }
+
+    .project_information {
+        padding: 20px;
+    }
+
+    .contact_member_items {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 991px) {
+    .news_info_txt {
+        width: 75%;
+    }
+
+    .events_items {
+        flex-direction: column;
+    }
+
+    .event_box {
+        width: 100%;
+    }
+
+    .more_info {
+        margin-bottom: 20px;
+    }
+
+    .slider_nav_block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .events_slider_block {
+        flex-direction: column;
+    }
+
+    .research_slider {
+        padding: 50px;
+    }
+
+    .nav_buttons {
+        right: initial;
+        padding: 0 60px;
+        bottom: 20px;
+        width: 100%;
+    }
+
+    .research_txt {
+        margin-bottom: 30px;
+    }
+
+    .member_info {
+        padding: 20px;
+    }
+
+    .member_info_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member_img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .search_box {
+        flex-direction: column;
+    }
+
+    .search_input input,
+    .select_btn {
+        width: 100%;
+    }
+
+    .search_items {
+        margin-bottom: 15px;
+    }
+
+    .download_block {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .region_{
+        height: initial;
+        padding: 20px;
+    }
+    .region_ form{
+        flex-direction: column;
+        width: 100%;
+    }
+    .region_items{
+        margin-bottom: 20px;
+        padding: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .region_items::after{
+        content: none;
+    }
+    .search_{
+        margin-left: 0;
+        width: 50%;
+    }
+    .region_items input{
+        width: 65%;
+    }
+}
+
+@media(max-width:767px) {
+    .top_title {
+        font-size: 20px;
+    }
+
+    .right_side_block {
+        font-size: 16px;
+    }
+
+    .service_block,
+    .service_card_block {
+        padding: 0;
+    }
+
+    .service_block {
+        background-color: initial;
+    }
+
+    .service_main_img {
+        height: 130px;
+    }
+
+    .news_info_txt {
+        width: 65%;
+    }
+
+    .media_items {
+        height: 185px;
+    }
+
+    .help_title::after {
+        top: 0;
+        right: 40px;
+    }
+
+    .banner_block {
+        height: auto;
+    }
+
+    .banner_block img {
+        object-fit: contain;
+    }
+
+    .news_title {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .news_img_items {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .news_txts p {
+        margin-bottom: 20px;
+    }
+
+    .map {
+        height: 200px;
+    }
+
+    .direction_block {
+        height: 150px;
+    }
+
+    .publication_box {
+        padding: 15px;
+    }
+
+    .organization_txt {
+        width: 95%;
+        top: 45px;
+        left: 25px;
+        padding-right: 50px;
+    }
+
+    .partners_name {
+        padding: 0 10px;
+    }
+
+    .result_ul {
+        width: 100%;
+    }
+
+    .project_info {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .tab_buttons {
+        font-size: 16px;
+    }
+
+    .publication_section,
+    .projects_section {
+        padding: 40px 0;
+    }
+
+    .publication_img {
+        width: 30%;
+    }
+
+    .explanation_block {
+        width: 60%;
+    }
+
+    .publication_inner_img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 575px) {
+    .logo_block {
+        width: 110px;
+    }
+
+    .search_block {
+        width: 157px;
+    }
+
+    .news_info_txt {
+        width: 55%;
+    }
+
+    .news_img {
+        height: 145px;
+    }
+
+    .research_box {
+        padding: 10px;
+    }
+
+    .team_section,
+    .organization_section {
+        padding: 30px 0;
+    }
+
+    .footer_yellow_line {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .publication_exp_block {
+        flex-direction: column;
+    }
+
+    .publication_img,
+    .explanation_block {
+        width: 100%;
+    }
+    .region_items{
+        flex-direction: column;
+    }
+    .region_items p{
+        margin: 0 0 15px 0;
+    }
+    .region_items input{
+        width: 100%;
+    }
+    .search_{
+        width: 100%;
+    }
+}
